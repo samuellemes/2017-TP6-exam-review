@@ -1,0 +1,22 @@
+{
+  "name": "2017-tp6-exam-review",
+  "version": "1.0.0",
+  "description": "A simple Node.js aplication",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuellemes/2017-TP6-exam-review.git"
+  },
+  "author": "Samuel Lemes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samuellemes/2017-TP6-exam-review/issues"
+  },
+  "homepage": "https://github.com/samuellemes/2017-TP6-exam-review#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
