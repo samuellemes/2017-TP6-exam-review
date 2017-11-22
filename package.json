@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "A simple Node.js aplication",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/samuellemes/2017-TP6-exam-review.git"
