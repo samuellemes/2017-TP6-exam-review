@@ -4,9 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Exam review</title>
 </head>
 <body>
     <h1>Hi there!</h1>
+    <form action="/status" method="GET">
+        <input type="text" name="studentId">
+        <input type="submit" value="ok">
+    </form>
+    <% if(student) { %>
+        <p>Name: <%= student.name %></p>
+        <p>Average: <%= student.average %></p>
+        <p>Status: <%= student.status %></p>
+    <% } else if(submitted) { %>
+        <p>Student not found!</p>
+    <% } %>
 </body>
 </html>
